@@ -110,13 +110,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     margin: 20px;
 }
 .border{
     border: 2px solid #3882F6;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
