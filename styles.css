@@ -1,0 +1,166 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column; 
+  }
+  .main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+  }
+  .sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  .logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+button{
+    background-color: #3882F6;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+.no-border-button{
+    border: 0;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote div {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 40%;
+    gap: 10px;
+    margin: 50px;
+}
+
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+.border{
+    border: 2px solid #3882F6;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.quote{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 80px;
+}
+
+.center-text{
+    flex-basis: 50%;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.call .center {
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    color: white;
+} 
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
