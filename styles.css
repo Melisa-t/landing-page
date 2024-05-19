@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.right {
+    margin-left: 40%;
+}
+
 html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -27,6 +31,7 @@ html {
   .logo-text{
     font-size: 24px;
     color: #F9FAF8;
+    margin: 5px 20px;
   }
 button{
     background-color: #3882F6;
@@ -163,4 +168,8 @@ img{
     align-items: center;
     padding: 50px;
     color: white;
+}
+
+.navbar{
+    margin: 5px 20px;
 }
